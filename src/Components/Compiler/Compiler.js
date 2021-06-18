@@ -658,7 +658,7 @@ export default class Compiler extends Component {
 
               <div>
                 <Timer 
-                  startCount = '10'
+                  startCount = {this.state.allotted_time}
                   email_address= {this.state.email_address}
                   full_name = {this.state.full_name}
                   student_id = {this.state.student_id}
